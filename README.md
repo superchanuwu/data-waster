@@ -1,4 +1,6 @@
-# data-waster
-The fastest and the most efficient way to waste your valuable mobile data
+## Data waster
 
-* [Demo](https://0101010101.com/labs/datawaster/)
+* The fastest and the most efficient way to waste your valuable mobile data
+* Uses cryptographic random data to ensure high entropy, resisting modern compression algorithms
+
+* [Demo](https://hletrd.github.io/data-waster/)
