@@ -81,7 +81,7 @@ class DataWaster {
   }
 
   async loadLanguage() {
-    const langCode = navigator.language.startsWith('ko') ? 'ko' : 'en';
+    const langCode = navigator.language.startsWith('id') ? 'id' : 'en';
 
     try {
       const response = await fetch(`./langs-${langCode}.json`);
@@ -90,7 +90,7 @@ class DataWaster {
     } catch (error) {
       console.error('Error loading language file:', error);
       try {
-        const fallbackResponse = await fetch('./langs-en.json');
+        const fallbackResponse = await fetch('./langs-id.json');
         this.#lang = await fallbackResponse.json();
       } catch (e) {
         console.error('Could not load fallback language file:', e);
