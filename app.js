@@ -81,7 +81,7 @@ class DataWaster {
   }
 
   async loadLanguage() {
-    const langCode = navigator.language.startsWith('id') ? 'id' : 'en';
+    const langCode = navigator.language.startsWith('id') ? 'id' : 'id';
 
     try {
       const response = await fetch(`./langs-${langCode}.json`);
